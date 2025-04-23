@@ -134,7 +134,7 @@ class UmamiTracker {
   }) async {
     try {
       await dio.post(
-        '/api/collect',
+        '/api/send',
         options: Options(
           headers: {
             'User-Agent': userAgent,
