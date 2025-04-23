@@ -10,7 +10,10 @@ environment:
 dependencies:
   devicelocale: ^0.8.1
   dio: ^5.8.0+1
-  fk_user_agent: ^2.1.0
+  fk_user_agent:
+    git:
+      url: https://github.com/tarzanking/fk_user_agent
+      ref: 2.1.1
   flutter:
     sdk: flutter
 
