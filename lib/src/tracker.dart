@@ -145,7 +145,7 @@ class UmamiTracker {
           'type': type.value,
         },
       );
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       debugPrint('Error while trying to collect data: $e');
     }
   }

@@ -1,7 +1,5 @@
 library umami_tracker;
 
-import 'dart:ui';
-
 import 'package:dio/dio.dart';
 import 'package:fk_user_agent/fk_user_agent.dart';
 import 'package:flutter/widgets.dart';
@@ -45,7 +43,9 @@ Future<UmamiTracker> createUmamiTracker({
   bool isEnabled = true,
 }) async {
   final locale = WidgetsBinding.instance.platformDispatcher.locale;
-  final size = Size(window.physicalSize.width, window.physicalSize.height);
+  final width = WidgetsBinding.instance.platformDispatcher.views.first.physicalSize.width;
+  final height = WidgetsBinding.instance.platformDispatcher.views.first.physicalSize.height;
+  final size = Size(width, height);
   await FkUserAgent.init();
 
   final dio = Dio()..options.baseUrl = url;

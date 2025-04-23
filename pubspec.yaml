@@ -2,6 +2,7 @@ name: umami_tracker
 description: A Umami tracker for Flutter that allows you to track screen views and events.
 version: 0.2.0
 homepage: https://davidserrano.io
+publish_to: none
 
 environment:
   sdk: ">=2.17.5 <3.0.0"
