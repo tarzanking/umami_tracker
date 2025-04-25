@@ -14,7 +14,7 @@ dependencies:
   fk_user_agent:
     git:
       url: https://github.com/tarzanking/fk_user_agent
-      ref: 2.1.1
+      ref: 2.1.2
   flutter:
     sdk: flutter
 

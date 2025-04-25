@@ -141,8 +141,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "2.1.1"
-      resolved-ref: "4a05f94b913ff1e9535db8847e88719736d21d5c"
+      ref: "2.1.2"
+      resolved-ref: dd8cea8524102021727b53d42573dc99ac706d3d
       url: "https://github.com/tarzanking/fk_user_agent"
     source: git
     version: "2.1.0"
